@@ -213,10 +213,6 @@ section h1, #recent_news{
 .blog_article{
 	font-size: 1.25em;
 }
-.no-transition {
-	-webkit-transition: none !important;
-	transition: none !important;
-}
 
 #calendar{
 	width: 75%;

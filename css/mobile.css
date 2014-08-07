@@ -1,0 +1,247 @@
+@media screen and (max-width: 400px){
+	.buttons, .buttons:hover{
+		opacity: 0.75;
+		width: 9em;
+		height: 3em;
+		margin-top: 15px;
+		border: 2px solid #1D4E8D;
+		color: #1D4E8D;
+		background-color: white;
+		box-shadow: 0px 1px 0 1px;
+	}
+	#button-wrapper{
+		margin: 30px auto;
+	}
+	#header-pic{
+		visibility: hidden !important;
+	}
+	
+	h1{
+		color: #1D4E8D;
+		margin-top: 10px;
+		margin-bottom: 25px;
+		font-weight: 500;
+		letter-spacing: 0.09em;
+		font-size: 50px;
+		line-height: 40px;
+		z-index: 998;
+	}
+	#title{
+		font-weight: 800;
+	}
+	#boast{
+		display: none;
+		font-size: 15px;
+		font-weight: 500;
+		letter-spacing: 0.5em;
+		z-index: 998;
+	}
+	#bear-wrapper{
+		position: absolute;
+		width: 100%;
+		margin: 0 auto;
+	
+	}
+	#bear{
+		opacity: 0.25;
+	}
+	#draws{
+		color: #1D4E8D;
+		border: 2px solid #1D4E8D;
+		margin: 0 auto 10px auto;
+		bottom: 0px;
+		right: 5%;
+		text-align: center;
+		line-height: 40px;
+		width: 100px;
+		height: 40px;
+		font-size: 0.9em;
+		font-weight: 500;
+		
+	}
+	#sign_up{
+		color: #1D4E8D;
+		border: 2px solid #1D4E8D;
+		margin: 0 auto 10px 0;
+		bottom: 0px;
+		left: 5%;
+		line-height: 40px;
+		font-weight: 500;
+		width: 100px;
+		height: 40px;
+		font-size: 0.9em;
+
+		
+	}
+	
+	#sign_up2, #draws2{
+		font-size: 15px;
+}
+	#header{
+		background-color: #A5BFD9;
+	}
+	section h1{
+		font-size: 40px;
+		letter-spacing: 0.001em;
+		padding-bottom: 0;
+	}
+	#recent_news{
+		letter-spacing: 0.001em;
+		font-size: 40px;
+		padding-bottom: 0;
+	}
+	section p{
+		text-align: justify;
+		font-size: 14px;
+		
+	}
+	#holi{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.icon-close, .icon-close:hover, .icon-close:active{
+		border: 1px solid #a50a05;
+		position: fixed;
+		top: 20px;
+		right: 20px;
+		display: block;
+		overflow: hidden;
+		width: 3em;
+		height: 3em;
+		text-align: center;
+		line-height: 3;
+		z-index: 5000;
+		border-radius: 50%;
+		background-color: white;
+		color: #a50a05;
+		font-size: 10px;
+	}
+	
+	#joel-intro, #diane-intro{
+		padding-top: 50px;
+		padding-bottom: 50px;
+		position: relative;
+		float: none;
+		left: 0;
+		margin: 0 auto;
+		width: 200px;
+		height: 100%;
+	}
+	#joel-intro h2, #diane-intro h2{
+		font-size: 20px;
+	}
+	#joel-intro>img, #diane-intro>img{
+		height: 200px;
+	}
+	#joel-intro>p, #diane-intro>p{
+		padding-bottom: 0;
+		font-size: 15px;
+	}
+	.calendar-container {
+	    position: relative;
+	    padding-bottom: 75%;
+	    height: 0;
+	    overflow: hidden;
+	}
+
+	#calendar{
+		position: absolute;
+	    top:0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+	#cover{
+		margin-top: -23px;
+	}
+	.video-container {
+	    position: relative;
+	    padding-bottom: 56.25%;
+	    padding-top: 35px;
+	    height: 0;
+	    overflow: hidden;
+	}
+	.video-container iframe {
+	    position: absolute;
+	    top:0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+
+	#important_dates{
+		font-size: 16px;
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+	.headline{
+		font-size: 20px;
+	}
+	.date{
+		padding-top: 0;
+		font-size: 15px;
+	}
+	#champions{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.blog_article{
+		font-size: 15px;
+	}
+	#sectional_pic{
+		width: 100%;
+	}
+	#followus{
+		font-size: 20px;
+	}
+	#social-icons{
+		font-size: 10px;
+		margin-top: 0px;
+	}
+	.icon-instagram{
+		margin-right: 10px;
+	}
+	.icon-instagram, .icon-twitter, .icon-instagram:hover, .icon-twitter:hover{
+		border-radius: 0;
+		color: #1D4E8D;
+		background-color: white;
+	}
+
+
+	#FAQ {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0px;
+	}
+
+	#FAQ label {
+		padding: 10px 10px;
+		height: 30px;
+		line-height: 15px;
+		font-size: 15px;
+		
+	}
+
+	#FAQ h2{
+		font-size: 30px;
+		line-height: 30px;
+		padding-bottom: 10px;
+	}
+
+
+
+	#FAQ article p{
+	    line-height: 13px;
+	    font-size: 13px;
+	    padding: 30px 20px 0 20px;
+	}
+	#questions h2{
+		font-size: 30px;
+		line-height: 30px;
+	}
+	#questions p, #questions span{
+		font-size: 15px;
+	}
+
+	
+}

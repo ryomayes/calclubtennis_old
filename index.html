@@ -6,6 +6,7 @@
 		<title>The official website of Cal Club Tennis</title>
 		<link type = "text/css" rel = "stylesheet" href = "css/style.css"/>
 		<link rel="stylesheet" type="text/css" href="css/content.css"/>
+		<link rel="stylesheet" rype="text/css" href="css/mobile.css"/>
 		<!--<link rel="stylesheet" type="text/css" href="css/normalize.css"/>!-->
 		<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:300,500,800' rel='stylesheet' type='text/css'/>
 		<link rel="icon" type="image/png" href="images/cal_logo.png"/>
@@ -21,7 +22,7 @@
 			<div id = "draws"><span id = "draws1">tryout draws</span><span id = "draws2">(coming soon)</span></div>
 			<div id = "welcome">
 				<a href = "index.html"> 
-					<h1>CAL CLUB TENNIS</h1> 
+					<h1 id="title">CAL CLUB TENNIS</h1> 
 				</a>
 				<h3 id = "boast">3-TIME NATIONAL CHAMPIONS</h3>
 			</div>
@@ -73,8 +74,10 @@
 								<span class = "icon-close">[close]</span>
 								<section>
 									<h1 id = "upcoming">Upcoming Events</h1>
-									<p style = "text-align: center">Important dates: <span style = "color: #a50a05; font-weight: 500">TBA<span></p>
-									<iframe id = "calendar" src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=californiaclubtennis%40gmail.com&amp;color=%232F6309&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="940" height="400" frameborder="0" scrolling="no"></iframe>
+									<p style = "text-align: center" id = "important_dates">Important dates: <span style = "color: #a50a05; font-weight: 500">TBA<span></p>
+									<div class = "calendar-container">
+										<iframe id = "calendar" src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=californiaclubtennis%40gmail.com&amp;color=%232F6309&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="940" height="400" frameborder="0" scrolling="no"></iframe>
+									</div>
 									<div id = 'cover'></div>
 								</section>
 									<h1 id = "recent_news">Recent News</h1>
@@ -85,7 +88,9 @@
 										<img id = 'champions' src="images/champions.jpg">
 										<p class = "blog_article">After three days of hard, tough tennis in the sizzling Arizona desert, Cal Club Tennis managed to defeat the Florida Gators to take home the USTA Tennis on Campus National Championship for the third time. For a detailed report, click <a style = "color: #1D4E8D; font-weight: 500" href="http://www.usta.com/College-Tennis/Tennis-On-Campus/uc_berkeleys_golden_bears_win_it_all/">here.</a></p>
 										<p class = "blog_article" style = "padding-bottom: 50px; text-align: center">Check out the video below:</p>
-										<iframe width="560" height="315" src="https://www.youtube.com/embed/RBhVu6wwC9Q" frameborder="0" allowfullscreen></iframe>
+										<div class = "video-container">
+											<iframe width="560" height="315" src="https://www.youtube.com/embed/RBhVu6wwC9Q" frameborder="0" allowfullscreen></iframe>
+										</div>
 									</div>
 									<div>
 										<h3 class = "date">November 9-13, 2013</h3>
@@ -117,9 +122,9 @@
 										</a>
 									</div>															
 								</section>		
-								<section id = "FAQ">
+								<section id = 'FAQ'>
+									<h2>Frequently Asked Questions</h2>
 									<div>
-										<h2>Frequently Asked Questions</h2>
 										<input id = "Q1" name="question-1" type="checkbox">
 										<label for="Q1">When and where are tryouts?</label>
 										<article class = "small">
@@ -154,7 +159,7 @@
 											<p>In the meantime, you should definitely consider joining Cal's intramural tennis club, Tennis at Cal. It's a great group of people for all levels of tennis who just love to play. In fact, there are several people on the Cal Club Tennis team who are also on Tennis at Cal. </p>											
 										</article>
 									</div>
-									<div><!--...--></div>								
+									<div><!--...--></div>
 								</section>		
 								<section id = "questions">
 									<h2>Any more questions?</h2>

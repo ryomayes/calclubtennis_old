@@ -33,7 +33,7 @@
 		display: none;
 		font-size: 15px;
 		font-weight: 500;
-		letter-spacing: 0.5em;
+		letter-spacing: 0.75em;
 		z-index: 998;
 	}
 	#bear-wrapper{
@@ -45,38 +45,69 @@
 	#bear{
 		opacity: 0.25;
 	}
-	#draws{
-		color: #1D4E8D;
-		border: 2px solid #1D4E8D;
-		margin: 0 auto 10px auto;
-		bottom: 0px;
-		right: 5%;
+
+	#sign_up{
+		display: inline-block;
+		border: 1px solid white;
+		margin: 0 auto;
+		z-index: 999;
+		position: relative;
 		text-align: center;
 		line-height: 40px;
-		width: 100px;
+		width: 80px;
 		height: 40px;
-		font-size: 0.9em;
-		font-weight: 500;
-		
-	}
-	#sign_up{
-		color: #1D4E8D;
-		border: 2px solid #1D4E8D;
-		margin: 0 auto 10px 0;
-		bottom: 0px;
-		left: 5%;
-		line-height: 40px;
-		font-weight: 500;
-		width: 100px;
-		height: 40px;
-		font-size: 0.9em;
+		font-size: 0.75em;
+		color: white;
+		font-weight: 300;
+		opacity: 0.75;
+		cursor: pointer;
 
-		
+	}
+	#venmo{
+		display: inline-block;
+		border: 1px solid white;
+		z-index: 999;
+		margin: 0 auto;
+		position: relative; 
+		text-align: center;
+		line-height: 40px;
+		width: 80px;
+		height: 40px;
+		font-size: 0.75em;
+		color: white;
+		font-weight: 300;
+		opacity: 0.75;
+		cursor: pointer;
+	}
+
+
+	#draws{
+		border: 1px solid white;
+		z-index: 999;
+		display: inline-block;
+		margin: 0 auto;
+		position: relative; 
+		text-align: center;
+		line-height: 40px;
+		width: 80px;
+		height: 40px;
+		font-size: 0.75em;
+		color: white;
+		font-weight: 300;
+		opacity: 0.75;
+		cursor: pointer;
+	}
+
+	#logistics-wrapper{
+		color: white;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		left: 0;
+		margin: 10% 10% 10% 9%;
+		height: 25px;
 	}
 	
-	#sign_up2, #draws2{
-		font-size: 15px;
-}
 	#header{
 		background-color: #A5BFD9;
 	}
